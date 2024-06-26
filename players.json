@@ -1,0 +1,1037 @@
+[
+  {
+    "name": "Sachin Tendulkar",
+    "format": {
+      "Test": {
+        "matches": 200,
+        "runs": 15921,
+        "average": 53.78,
+        "centuries": 51
+      },
+      "ODI": {
+        "matches": 463,
+        "runs": 18426,
+        "average": 44.83,
+        "centuries": 49
+      },
+      "T20": {
+        "matches": 1,
+        "runs": 10,
+        "average": 10.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Virat Kohli",
+    "format": {
+      "Test": {
+        "matches": 108,
+        "runs": 8416,
+        "average": 48.93,
+        "centuries": 28
+      },
+      "ODI": {
+        "matches": 275,
+        "runs": 13027,
+        "average": 57.39,
+        "centuries": 46
+      },
+      "T20": {
+        "matches": 115,
+        "runs": 4008,
+        "average": 52.73,
+        "centuries": 1
+      }
+    }
+  },
+  {
+    "name": "MS Dhoni",
+    "format": {
+      "Test": {
+        "matches": 90,
+        "runs": 4876,
+        "average": 38.09,
+        "centuries": 6
+      },
+      "ODI": {
+        "matches": 350,
+        "runs": 10773,
+        "average": 50.57,
+        "centuries": 10
+      },
+      "T20": {
+        "matches": 98,
+        "runs": 1617,
+        "average": 37.6,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Rohit Sharma",
+    "format": {
+      "Test": {
+        "matches": 45,
+        "runs": 3137,
+        "average": 46.54,
+        "centuries": 8
+      },
+      "ODI": {
+        "matches": 243,
+        "runs": 9782,
+        "average": 48.96,
+        "centuries": 30
+      },
+      "T20": {
+        "matches": 126,
+        "runs": 3313,
+        "average": 32.95,
+        "centuries": 4
+      }
+    }
+  },
+  {
+    "name": "Rahul Dravid",
+    "format": {
+      "Test": {
+        "matches": 164,
+        "runs": 13288,
+        "average": 52.31,
+        "centuries": 36
+      },
+      "ODI": {
+        "matches": 344,
+        "runs": 10889,
+        "average": 39.16,
+        "centuries": 12
+      },
+      "T20": {
+        "matches": 1,
+        "runs": 31,
+        "average": 31.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Anil Kumble",
+    "format": {
+      "Test": {
+        "matches": 132,
+        "wickets": 619,
+        "average": 29.65,
+        "fiveWicketHauls": 35
+      },
+      "ODI": {
+        "matches": 271,
+        "wickets": 337,
+        "average": 30.89,
+        "fiveWicketHauls": 2
+      },
+      "T20": {
+        "matches": 0,
+        "wickets": 0,
+        "average": 0.0,
+        "fiveWicketHauls": 0
+      }
+    }
+  },
+  {
+    "name": "Kapil Dev",
+    "format": {
+      "Test": {
+        "matches": 131,
+        "runs": 5248,
+        "average": 31.05,
+        "centuries": 8
+      },
+      "ODI": {
+        "matches": 225,
+        "runs": 3783,
+        "average": 23.79,
+        "centuries": 1
+      },
+      "T20": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Sunil Gavaskar",
+    "format": {
+      "Test": {
+        "matches": 125,
+        "runs": 10122,
+        "average": 51.12,
+        "centuries": 34
+      },
+      "ODI": {
+        "matches": 108,
+        "runs": 3092,
+        "average": 35.13,
+        "centuries": 1
+      },
+      "T20": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "VVS Laxman",
+    "format": {
+      "Test": {
+        "matches": 134,
+        "runs": 8781,
+        "average": 45.97,
+        "centuries": 17
+      },
+      "ODI": {
+        "matches": 86,
+        "runs": 2338,
+        "average": 30.76,
+        "centuries": 6
+      },
+      "T20": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Sourav Ganguly",
+    "format": {
+      "Test": {
+        "matches": 113,
+        "runs": 7212,
+        "average": 42.17,
+        "centuries": 16
+      },
+      "ODI": {
+        "matches": 311,
+        "runs": 11363,
+        "average": 41.02,
+        "centuries": 22
+      },
+      "T20": {
+        "matches": 1,
+        "runs": 15,
+        "average": 15.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Anil Kumble",
+    "format": {
+      "Test": {
+        "matches": 132,
+        "runs": 2506,
+        "average": 17.77,
+        "centuries": 1
+      },
+      "ODI": {
+        "matches": 271,
+        "runs": 938,
+        "average": 10.53,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Yuvraj Singh",
+    "format": {
+      "Test": {
+        "matches": 40,
+        "runs": 1900,
+        "average": 33.92,
+        "centuries": 3
+      },
+      "ODI": {
+        "matches": 304,
+        "runs": 8701,
+        "average": 36.55,
+        "centuries": 14
+      },
+      "T20": {
+        "matches": 58,
+        "runs": 1177,
+        "average": 28.02,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Ravichandran Ashwin",
+    "format": {
+      "Test": {
+        "matches": 88,
+        "runs": 2931,
+        "average": 27.34,
+        "centuries": 5
+      },
+      "ODI": {
+        "matches": 111,
+        "runs": 707,
+        "average": 16.45,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 46,
+        "runs": 123,
+        "average": 30.75,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Ajinkya Rahane",
+    "format": {
+      "Test": {
+        "matches": 82,
+        "runs": 4795,
+        "average": 40.55,
+        "centuries": 12
+      },
+      "ODI": {
+        "matches": 90,
+        "runs": 2962,
+        "average": 35.26,
+        "centuries": 3
+      },
+      "T20": {
+        "matches": 20,
+        "runs": 375,
+        "average": 20.83,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "format": {
+      "Test": {
+        "matches": 30,
+        "runs": 61,
+        "average": 3.39,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 67,
+        "runs": 19,
+        "average": 9.5,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 50,
+        "runs": 8,
+        "average": 8.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Shikhar Dhawan",
+    "format": {
+      "Test": {
+        "matches": 34,
+        "runs": 2315,
+        "average": 40.61,
+        "centuries": 7
+      },
+      "ODI": {
+        "matches": 167,
+        "runs": 6793,
+        "average": 45.28,
+        "centuries": 17
+      },
+      "T20": {
+        "matches": 68,
+        "runs": 1759,
+        "average": 27.92,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "KL Rahul",
+    "format": {
+      "Test": {
+        "matches": 45,
+        "runs": 2642,
+        "average": 35.26,
+        "centuries": 7
+      },
+      "ODI": {
+        "matches": 54,
+        "runs": 1986,
+        "average": 45.13,
+        "centuries": 5
+      },
+      "T20": {
+        "matches": 72,
+        "runs": 2265,
+        "average": 37.75,
+        "centuries": 2
+      }
+    }
+  },
+  {
+    "name": "Rishabh Pant",
+    "format": {
+      "Test": {
+        "matches": 33,
+        "runs": 2123,
+        "average": 43.32,
+        "centuries": 5
+      },
+      "ODI": {
+        "matches": 30,
+        "runs": 865,
+        "average": 34.6,
+        "centuries": 1
+      },
+      "T20": {
+        "matches": 50,
+        "runs": 987,
+        "average": 22.43,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Hardik Pandya",
+    "format": {
+      "Test": {
+        "matches": 11,
+        "runs": 532,
+        "average": 31.29,
+        "centuries": 1
+      },
+      "ODI": {
+        "matches": 74,
+        "runs": 1518,
+        "average": 34.5,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 84,
+        "runs": 1264,
+        "average": 25.28,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Ravindra Jadeja",
+    "format": {
+      "Test": {
+        "matches": 62,
+        "runs": 2523,
+        "average": 35.26,
+        "centuries": 3
+      },
+      "ODI": {
+        "matches": 171,
+        "runs": 2411,
+        "average": 32.13,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 64,
+        "runs": 457,
+        "average": 20.77,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Bhuvneshwar Kumar",
+    "format": {
+      "Test": {
+        "matches": 21,
+        "runs": 552,
+        "average": 22.08,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 121,
+        "runs": 552,
+        "average": 13.83,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 57,
+        "runs": 56,
+        "average": 9.33,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "format": {
+      "Test": {
+        "matches": 30,
+        "runs": 61,
+        "average": 3.39,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 67,
+        "runs": 19,
+        "average": 9.5,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 50,
+        "runs": 8,
+        "average": 8.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Yuzvendra Chahal",
+    "format": {
+      "Test": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 72,
+        "runs": 55,
+        "average": 9.16,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 75,
+        "runs": 5,
+        "average": 2.5,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Mohammed Shami",
+    "format": {
+      "Test": {
+        "matches": 60,
+        "runs": 657,
+        "average": 11.72,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 83,
+        "runs": 144,
+        "average": 6.54,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 17,
+        "runs": 17,
+        "average": 8.5,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Shubman Gill",
+    "format": {
+      "Test": {
+        "matches": 13,
+        "runs": 736,
+        "average": 32.0,
+        "centuries": 1
+      },
+      "ODI": {
+        "matches": 24,
+        "runs": 1254,
+        "average": 62.7,
+        "centuries": 4
+      },
+      "T20": {
+        "matches": 6,
+        "runs": 202,
+        "average": 40.4,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Mayank Agarwal",
+    "format": {
+      "Test": {
+        "matches": 21,
+        "runs": 1488,
+        "average": 41.33,
+        "centuries": 4
+      },
+      "ODI": {
+        "matches": 5,
+        "runs": 86,
+        "average": 17.2,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 1,
+        "runs": 27,
+        "average": 27.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Prithvi Shaw",
+    "format": {
+      "Test": {
+        "matches": 5,
+        "runs": 339,
+        "average": 42.37,
+        "centuries": 1
+      },
+      "ODI": {
+        "matches": 6,
+        "runs": 189,
+        "average": 31.5,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 1,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Shreyas Iyer",
+    "format": {
+      "Test": {
+        "matches": 8,
+        "runs": 640,
+        "average": 42.66,
+        "centuries": 1
+      },
+      "ODI": {
+        "matches": 42,
+        "runs": 1631,
+        "average": 42.92,
+        "centuries": 2
+      },
+      "T20": {
+        "matches": 49,
+        "runs": 1043,
+        "average": 30.68,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Suryakumar Yadav",
+    "format": {
+      "Test": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 23,
+        "runs": 511,
+        "average": 24.33,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 48,
+        "runs": 1675,
+        "average": 46.52,
+        "centuries": 3
+      }
+    }
+  },
+  {
+    "name": "Washington Sundar",
+    "format": {
+      "Test": {
+        "matches": 4,
+        "runs": 265,
+        "average": 66.25,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 16,
+        "runs": 233,
+        "average": 29.12,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 32,
+        "runs": 47,
+        "average": 8.66,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Deepak Chahar",
+    "format": {
+      "Test": {
+        "matches": 1,
+        "runs": 8,
+        "average": 8.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 13,
+        "runs": 180,
+        "average": 36.0,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 24,
+        "runs": 53,
+        "average": 13.25,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Shardul Thakur",
+    "format": {
+      "Test": {
+        "matches": 8,
+        "runs": 190,
+        "average": 19.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 31,
+        "runs": 268,
+        "average": 22.33,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 25,
+        "runs": 69,
+        "average": 17.25,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Navdeep Saini",
+    "format": {
+      "Test": {
+        "matches": 2,
+        "runs": 11,
+        "average": 5.5,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 8,
+        "runs": 6,
+        "average": 3.0,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 11,
+        "runs": 7,
+        "average": 7.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Axar Patel",
+    "format": {
+      "Test": {
+        "matches": 13,
+        "runs": 611,
+        "average": 31.67,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 49,
+        "runs": 381,
+        "average": 14.65,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 37,
+        "runs": 171,
+        "average": 14.25,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Hanuma Vihari",
+    "format": {
+      "Test": {
+        "matches": 16,
+        "runs": 839,
+        "average": 33.56,
+        "centuries": 1
+      },
+      "ODI": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Manish Pandey",
+    "format": {
+      "Test": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 29,
+        "runs": 566,
+        "average": 33.29,
+        "centuries": 1
+      },
+      "T20": {
+        "matches": 39,
+        "runs": 709,
+        "average": 44.31,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Krunal Pandya",
+    "format": {
+      "Test": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 5,
+        "runs": 130,
+        "average": 65.0,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 19,
+        "runs": 124,
+        "average": 24.8,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Ishan Kishan",
+    "format": {
+      "Test": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 13,
+        "runs": 507,
+        "average": 46.09,
+        "centuries": 1
+      },
+      "T20": {
+        "matches": 27,
+        "runs": 653,
+        "average": 25.11,
+        "centuries": 4
+      }
+    }
+  },
+  {
+    "name": "Ruturaj Gaikwad",
+    "format": {
+      "Test": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 1,
+        "runs": 19,
+        "average": 19.0,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 9,
+        "runs": 135,
+        "average": 16.87,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Sanju Samson",
+    "format": {
+      "Test": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 13,
+        "runs": 390,
+        "average": 55.71,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 17,
+        "runs": 301,
+        "average": 20.07,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Varun Chakravarthy",
+    "format": {
+      "Test": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 6,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Rahul Chahar",
+    "format": {
+      "Test": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 5,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 6,
+        "runs": 3,
+        "average": 3.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Khaleel Ahmed",
+    "format": {
+      "Test": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 25,
+        "runs": 9,
+        "average": 2.25,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 14,
+        "runs": 6,
+        "average": 2.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "T Natarajan",
+    "format": {
+      "Test": {
+        "matches": 1,
+        "runs": 3,
+        "average": 3.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 2,
+        "runs": 1,
+        "average": 1.0,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 4,
+        "runs": 5,
+        "average": 5.0,
+        "centuries": 0
+      }
+    }
+  },
+  {
+    "name": "Deepak Hooda",
+    "format": {
+      "Test": {
+        "matches": 0,
+        "runs": 0,
+        "average": 0.0,
+        "centuries": 0
+      },
+      "ODI": {
+        "matches": 10,
+        "runs": 153,
+        "average": 21.85,
+        "centuries": 0
+      },
+      "T20": {
+        "matches": 21,
+        "runs": 368,
+        "average": 26.28,
+        "centuries": 1
+      }
+    }
+  }
+]

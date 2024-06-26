@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+
+    background-color: rgb(165, 165, 165);
+    height: 100vh;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 400px;
+    background-color: rgb(93, 254, 254);
+}
+h3{
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    font-size: 15px;
+    border-radius: 7px;
+    /* margin-bottom: 10px; */
+}
+.btn{
+    margin-top: 5px;
+    color: black;
+    background-color: white;
+    padding: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    width: 70px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.stats{
+    margin-top: 10px;
+    /* display: none; */
+}
+.table bdr{
+    border-radius: 20px;
+}
+.name{
+    text-align: center;
+}
+.name>h3{
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+.stats{
+    display: none;
+}
+.err{
+    color: red;
+    margin-top: 0px;
+    display: flex;
+    width: 300px;  
+}
+.err{
+    display: none;
+}
