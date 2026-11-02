@@ -1,71 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cricket stats</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="main">
-      <h3>Enter player name</h3>
-      <div class="container">
-        <div>
-          <input type="text" class="box" placeholder="Player Name" value="" />
-        </div>
-        <div class="err">
-          <span>
-            Player Unavailable
-          </span>
-        </div>
-        <div>
-          <input type="submit" class="btn" value="Search" />
-        </div>
-      </div>
-      <div class="stats">
-        <div class="name">
-          <H3 class="nam">Player name</H3>
-        </div>
-        <table class="table table-dark bdr">
-          <thead>
-            <tr>
-              <th scope="col">stats</th>
-              <th scope="col">ODIs</th>
-              <th scope="col">T20i</th>
-              <th scope="col">Tests</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Match</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">runs</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">avg</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-            <tr>
-              <th scope="row">centuries</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cricket Stats</title>
+<style>
+  :root{
+    --pitch:#f3efe2; --ink:#1b2a22; --muted:#5d6b62; --line:#d8d2bd;
+    --card:#fbf9f0; --seam:#a8321f; --turf:#1f5a3a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --pitch:#0f1c15; --ink:#eef0e4; --muted:#9db0a2; --line:#2a3d32; --card:#16271d; --seam:#e8765f; --turf:#7fc79a; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--pitch);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.5}
+  main{max-width:880px;margin:0 auto;padding:40px 20px 60px}
+  h1{font-size:clamp(2rem,6vw,3.2rem);margin:0 0 6px;letter-spacing:-.02em}
+  .sub{color:var(--muted);margin:0 0 28px}
+  .search{display:flex;gap:10px;margin-bottom:14px}
+  input{flex:1;font:inherit;font-size:1.1rem;padding:12px 14px;border:2px solid var(--ink);border-radius:6px;background:var(--card);color:var(--ink)}
+  input:focus-visible,button:focus-visible{outline:3px solid var(--seam);outline-offset:2px}
+  button{font:inherit;cursor:pointer;border-radius:6px}
+  .go{padding:12px 20px;border:2px solid var(--ink);background:var(--ink);color:var(--pitch);font-weight:bold}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:30px}
+  .chip{padding:6px 12px;border:1px solid var(--line);background:transparent;color:var(--ink)}
+  .chip:hover,.chip.on{border-color:var(--seam);color:var(--seam)}
+  .msg{padding:20px;border:1px dashed var(--line);border-radius:6px;color:var(--muted)}
+  .head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;margin-bottom:4px}
+  .head h2{margin:0;font-size:clamp(1.7rem,5vw,2.4rem)}
+  .meta{color:var(--muted);margin:0 0 22px}
+  .formats{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+  .fmt{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--turf);border-radius:6px;padding:16px 18px}
+  .fmt h3{margin:0 0 10px;font-size:1.05rem;color:var(--turf)}
+  .runs{font-size:2.2rem;font-weight:bold;line-height:1}
+  .runs small{font-size:.85rem;font-weight:normal;color:var(--muted);margin-left:6px}
+  dl{display:grid;grid-template-columns:1fr auto;gap:4px 12px;margin:14px 0 0}
+  dt{color:var(--muted)} dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}
+  .na{color:var(--muted);font-style:italic}
+  footer{margin-top:34px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Cricket Stats</h1>
+  <p class="sub">Type a batsman's name to see his international career record.</p>
 
-    <script src="script.js"></script>
-  </body>
+  <div class="search">
+    <input id="q" list="names" placeholder="e.g. Kohli, Sachin, Dhoni" autocomplete="off" aria-label="Player name">
+    <button class="go" id="go">Show stats</button>
+  </div>
+  <datalist id="names"></datalist>
+  <div class="chips" id="chips"></div>
+
+  <div id="out"><div class="msg">Pick a player above or type a name to get started.</div></div>
+
+  <footer>Career batting figures for international cricket. Active players' numbers change with every match, so check ESPNcricinfo for the latest.</footer>
+</main>
+
+<script>
+// ---- EDIT HERE: add or update players. Format: [matches, runs, average, highest score, 100s, 50s]
+const PLAYERS = [
+  { name:"Sachin Tendulkar", born:"1973, Mumbai", role:"Right-hand batsman · 1989–2013",
+    Test:[200,15921,53.78,"248*",51,68], ODI:[463,18426,44.83,"200*",49,96], T20I:[1,10,10.00,"10",0,0] },
+  { name:"Virat Kohli", born:"1988, Delhi", role:"Right-hand batsman · 2008–present (ODI)",
+    Test:[123,9230,46.85,"254*",30,31], ODI:[302,14181,57.88,"183",51,74], T20I:[125,4188,48.69,"122*",1,38] },
+  { name:"Rohit Sharma", born:"1987, Nagpur", role:"Right-hand opener · 2007–present (ODI)",
+    Test:[67,4301,40.57,"212",12,18], ODI:[273,11168,48.69,"264",32,58], T20I:[159,4231,32.05,"121*",5,32] },
+  { name:"MS Dhoni", born:"1981, Ranchi", role:"Wicketkeeper-batsman · 2004–2019",
+    Test:[90,4876,38.09,"224",6,33], ODI:[350,10773,50.57,"183*",10,73], T20I:[98,1617,37.60,"56",0,2] },
+  { name:"Rahul Dravid", born:"1973, Indore", role:"Right-hand batsman · 1996–2012",
+    Test:[164,13288,52.31,"270",36,63], ODI:[344,10889,39.16,"153",12,83], T20I:[1,31,31.00,"31",0,0] },
+  { name:"Virender Sehwag", born:"1978, Delhi", role:"Right-hand opener · 1999–2013",
+    Test:[104,8586,49.34,"319",23,32], ODI:[251,8273,35.05,"219",15,38], T20I:[19,394,19.70,"68",0,2] },
+  { name:"Sourav Ganguly", born:"1972, Kolkata", role:"Left-hand batsman · 1992–2008",
+    Test:[113,7212,42.17,"239",16,35], ODI:[311,11363,41.02,"183",22,72], T20I:null }
+];
+
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString("en-IN");
+
+PLAYERS.forEach(p => {
+  const o = document.createElement("option"); o.value = p.name; $("names").appendChild(o);
+  const b = document.createElement("button");
+  b.className = "chip"; b.textContent = p.name;
+  b.onclick = () => { $("q").value = p.name; search(); };
+  $("chips").appendChild(b);
+});
+
+function card(label, s){
+  if(!s) return `<div class="fmt"><h3>${label}</h3><p class="na">Did not play this format.</p></div>`;
+  const [m, r, avg, hs, h, f] = s;
+  return `<div class="fmt"><h3>${label}</h3>
+    <div class="runs">${fmt(r)}<small>runs</small></div>
+    <dl><dt>Matches</dt><dd>${m}</dd><dt>Average</dt><dd>${avg.toFixed(2)}</dd>
+    <dt>Highest score</dt><dd>${hs}</dd><dt>Hundreds</dt><dd>${h}</dd><dt>Fifties</dt><dd>${f}</dd></dl></div>`;
+}
+
+function search(){
+  const q = $("q").value.trim().toLowerCase();
+  document.querySelectorAll(".chip").forEach(c => c.classList.remove("on"));
+  if(!q){ $("out").innerHTML = '<div class="msg">Type a player name first.</div>'; return; }
+  const p = PLAYERS.find(x => x.name.toLowerCase().includes(q));
+  if(!p){
+    $("out").innerHTML = '<div class="msg">No player found for "' + q.replace(/</g,"&lt;") +
+      '". Try one of the names above, such as Kohli or Dhoni.</div>';
+    return;
+  }
+  document.querySelectorAll(".chip").forEach(c => { if(c.textContent === p.name) c.classList.add("on"); });
+  $("out").innerHTML = `<div class="head"><h2>${p.name}</h2></div>
+    <p class="meta">Born ${p.born} · ${p.role}</p>
+    <div class="formats">${card("Tests", p.Test)}${card("ODIs", p.ODI)}${card("T20Is", p.T20I)}</div>`;
+}
+
+$("go").onclick = search;
+$("q").addEventListener("keydown", e => { if(e.key === "Enter") search(); });
+$("q").addEventListener("change", search);
+</script>
+</body>
 </html>
