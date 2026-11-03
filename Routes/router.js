@@ -1,4 +1,4 @@
-const express = require('express')
+onst express = require('express')
 const router = express.Router()
 
 const getplayerstats = require('../Controllers/controller')
