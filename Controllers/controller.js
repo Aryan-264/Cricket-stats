@@ -1,4 +1,4 @@
-const Player = require('../models/stats');
+onst Player = require('../models/stats');
 
 const getplayerstats = async (req, res) => {
     try {
