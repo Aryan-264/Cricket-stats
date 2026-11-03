@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+onst mongoose = require('mongoose');
 
 // Define the schema for the player statistics
 const playerSchema = new mongoose.Schema({
