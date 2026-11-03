@@ -1,5 +1,5 @@
 require('dotenv').config()  //  DOTENV FILE
-const mongoose = require('mongoose')
+onst mongoose = require('mongoose')
 
 //const mongodb_url="mongodb+srv://aryangangwar63332:aryan2005@api.sqkn1lj.mongodb.net/myapi"  //Local database
 
