@@ -1,4 +1,4 @@
-const connectDB = require('./dbserver');
+onst connectDB = require('./dbserver');
 const Player = require('./models/stats');
 const PlayersJson = require('./players.json');
 
